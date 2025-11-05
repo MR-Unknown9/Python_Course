@@ -102,18 +102,7 @@ Python_Course/
 * **Python 3.10+**
 * **VS Code**
 * **Jupyter / Code Runner**
-* **GitHub Copilot** (optional)
 * **Libraries:** Flask, Pandas, Requests, Cowsay
-
----
-
-## 💊 Capstone Ideas
-
-* **Drug Interaction Checker:** Compare two drugs and show potential interactions.
-* **Patient Data Cleaner:** Load CSV data and clean duplicates or missing values.
-* **Dosage Calculator Web Tool:** A simple Flask app that computes dosage.
-
----
 
 ## ✨ Notes
 
@@ -124,19 +113,3 @@ Python_Course/
   * Example code
   * Practice exercises
   * Optional challenges
-
----
-
-## 🧑‍💻 License
-
-This project is for **educational purposes only**.
-Feel free to share and adapt for your own teaching, with credit.
-
----
-
-### 🧩 Instructor’s Note
-
-> "This course aims to make Python feel natural — not scary.
-> You’ll learn to think like a programmer and automate real-world tasks from your field."
-
----
