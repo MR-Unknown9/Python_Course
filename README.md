@@ -1,115 +1,171 @@
-# 🧠 Python Course  
+# Pytohn_Course
 
-**Instructor:** Khaled  
-**Course Duration:** ~8 Weeks  
-**Notion Page:** [📘 View Course Roadmap & Notes](https://www.notion.so/Python-2a21b0b567f38079800de55565c419db?source=copy_link)
-
----
-
-## 🗺️ Overview
-
-This repository contains all code, exercises, and mini-projects from the **Python** course.  
-It’s designed for complete beginners with no prior programming experience, focusing on practical examples from healthcare, automation, and data handling.
+> A practical, beginner-friendly Python course designed for a **Pharmacy Doctor** preparing for a **Master’s degree**.  
+> Learn Python step-by-step through pharmacy-related examples, hands-on exercises, and a final project.
 
 ---
 
-## 🧩 Course Modules
+## 📘 Course Overview
 
-| Module | Topic | Description |
-|:------:|:------|:-------------|
-| 1 | **Introduction & Setup** | Installing Python, VS Code, virtual environments, and extensions. |
-| 2 | **Python Fundamentals** | Variables, functions, data types, and basic operations. |
-| 3 | **Data Collections** | Lists, tuples, dictionaries, and sets with pharmacy examples. |
-| 4 | **Control Structures** | If/else logic and loops to automate decisions. |
-| 5 | **Errors & Debugging** | Understanding and handling runtime issues. |
-| 6 | **Libraries** | Introduction to Flask, Cowsay, and other useful tools. |
-| 7 | **Automation** | Using Python for data processing and CSV/JSON handling. |
-| 8 | **Capstone Project** | A small project that combines all learned topics. |
+| **Item** | **Details** |
+|-----------|--------------|
+| **Duration** | 8 sessions (1–1.5 hours each) |
+| **Skill Level** | Beginner |
+| **Goal** | Learn Python for informatics, automation, and research tasks |
+| **Tools** | Python 3.10+, VS Code, pip, venv, Git, (optional: GitHub Copilot) |
 
 ---
 
-## 📁 Repository Structure
+## 🗺️ Course Roadmap
+
+| **Module** | **Focus** | **Goal** |
+|-------------|-----------|----------|
+| 1 | Fundamentals & Setup | Install Python and VS Code, run first script |
+| 2 | Variables & Data Types | Handle basic data and user input |
+| 3 | Control Flow & Loops | Write decision-making programs |
+| 4 | Functions | Build reusable, modular code |
+| 5 | Collections | Work with lists, dictionaries, tuples, sets |
+| 6 | Error Handling | Handle bugs and exceptions |
+| 7 | Tools & Libraries | Use pip, venv, Copilot, and manage packages |
+| 8 | OOP & Final Project | Model data and build a pharmacy project |
+
+---
+
+## 💻 Setup Instructions
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone git@github.com:MR-Unknown9/Python_Course.git
+cd Python_Course
+````
+
+### 2️⃣ Create a Virtual Environment
+
+```bash
+python -m venv env
+```
+
+Activate it:
+
+* **Windows:** `env\\Scripts\\activate`
+* **Mac/Linux:** `source env/bin/activate`
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🧱 Folder Structure
 
 ```
 Python_Course/
-│
-├── module_01_setup/
-│   └── hello_informatics.py
-│
-├── module_02_basics/
-│   ├── variables.py
-│   └── functions.py
-│
-├── module_03_collections/
-│   └── drug_data_example.py
-│
-├── module_04_logic/
-│   └── dose_checker.py
-│
-├── module_05_errors/
-│   └── try_except_demo.py
-│
-├── module_06_libraries/
-│   ├── cowsay_example.py
-│   └── flask_app.py
-│
-├── module_07_automation/
-│   └── patient_data_cleaner.py
-│
-├── module_08_capstone/
-│   └── drug_interaction_checker/
-│       ├── app.py
-│       └── requirements.txt
-│
+├── sessions/
+│   ├── 01_setup_and_intro/
+│   ├── 02_variables_and_types/
+│   ├── 03_control_flow/
+│   ├── 04_functions/
+│   ├── 05_collections/
+│   ├── 06_error_handling/
+│   ├── 07_tools_libraries/
+│   ├── 08_oop_final_project/
+├── examples/
+│   ├── calc_dose.py
+│   ├── safe_input.py
+│   └── patients_data.csv
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## ⚙️ Setup Instructions
+## ✅ Tasks & Homework Progress
 
-1. **Clone the repository**
+### Session 1
 
-   ```bash
-   git clone https://github.com/MR-Unknown9/Python_Course.git
-   cd Python_Course
-   ```
+* [ ] Install Python & VS Code
+* [ ] Create a virtual environment
+* [ ] Run `print("Hello, Pharmacist!")`
 
-2. **Create a virtual environment**
+### Session 2
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Mac/Linux
-   venv\Scripts\activate      # On Windows
-   ```
+* [ ] Practice variables and data types
+* [ ] Write a simple dose calculator using `input()`
 
-3. **Install required packages**
+### Session 3
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+* [ ] Build a small “Lab Value Checker” with `if` and `while`
 
-4. **Run any Python file**
+### Session 4
 
-   ```bash
-   python module_02_basics/variables.py
-   ```
+* [ ] Write `calc_dose(weight, mg_per_kg=10)` function
+* [ ] Handle invalid inputs gracefully
+
+### Session 5
+
+* [ ] Create patient list (list of dicts)
+* [ ] Print, edit, and export data to CSV
+
+### Session 6
+
+* [ ] Add error handling to previous scripts
+* [ ] Use `try`, `except`, and `logging`
+
+### Session 7
+
+* [ ] Install a library (e.g. `cowsay`)
+* [ ] Create and freeze `requirements.txt`
+
+### Session 8
+
+* [ ] Build your final project
+* [ ] Push your project to GitHub 🎉
 
 ---
 
-## 🧮 Tools Used
+## 💡 Final Project Ideas
 
-* **Python 3.10+**
-* **VS Code**
-* **Jupyter / Code Runner**
-* **Libraries:** Flask, Pandas, Requests, Cowsay
+* 🏥 **Pharmacy Inventory Manager** — CRUD system using CSV files.
+* 💊 **Dosage Recommender** — takes patient data and outputs recommended doses.
+* ⚗️ **Drug Interaction Checker** — uses a local dataset to flag basic interactions.
 
-## ✨ Notes
+---
 
-* All lessons and notes are available in Notion 👉
-  [Python_Course (Notion Page)](https://www.notion.so/Python-2a21b0b567f38079800de55565c419db?source=copy_link)
-* Each module folder will contain:
+## 🔗 Useful Links
 
-  * Example code
-  * Practice exercises
-  * Optional challenges
+### 🧰 Official Tools
+
+* [Install Python](https://www.python.org/downloads/)
+* [Install VS Code](https://code.visualstudio.com/download)
+* [Git Download](https://git-scm.com/downloads)
+* [pip Docs](https://pip.pypa.io/en/stable/)
+
+### 📚 Learning Resources
+
+* [Python Docs](https://docs.python.org/3/tutorial/)
+* [W3Schools Python](https://www.w3schools.com/python/)
+* [Real Python Tutorials](https://realpython.com/start-here/)
+* [Kaggle Datasets](https://www.kaggle.com/datasets)
+
+### 🧾 Cheat Sheets
+
+* [Python Basics](https://www.pythoncheatsheet.org/)
+* [VS Code Shortcuts](https://code.visualstudio.com/shortcuts)
+* [GitHub Git Cheat Sheet (PDF)](https://education.github.com/git-cheat-sheet-education.pdf)
+
+---
+
+## 👨‍🏫 Instructor Notes
+
+> This repo accompanies the *“Python for Pharmacy”* Notion page.
+> Each session includes examples, tasks, and exercises with checkboxes for tracking progress.
+> Ideal for self-paced study or instructor-led workshops.
+
+---
+
+**Created by:** Khaled (Instructor)
+**GitHub:** [MR-Unknown9](https://github.com/MR-Unknown9)
+**License:** MIT
