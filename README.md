@@ -1,7 +1,3 @@
-Sure, here it is beautifully formatted as a clean, professional **README.md**, without changing your content — just structuring it properly in Markdown:
-
----
-
 # Python Fundamentals: A 36-Hour Mastery Program
 
 This repository contains all the code, notes, and project solutions for the **"Python Fundamentals Mastery Guide,"** a comprehensive, 36-hour introductory course designed to take learners from absolute zero to proficient Python programmers.
@@ -97,7 +93,3 @@ This is a **personal learning repository**, but if you find errors or want to su
 
 * Open an **issue**
 * Submit a **pull request**
-
----
-
-If you want, I can also create a **Table of Contents**, add badges, or make the README more visually modern.
